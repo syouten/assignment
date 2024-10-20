@@ -1,0 +1,17 @@
+[debug] > Exec(~run, None, None)
+[info] sbt server started at local:sbt-server-a33867f33bdc8ce02d23
+[debug] Writing bsp connection file
+[info] started sbt server
+[debug] > Exec(__runWatch console0, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(__preWatch console0, None, None)
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\Jia\IdeaProjects\assignment\target\scala-2.12\classes ...
+[info] done compiling
+[success] Total time: 33 s, completed Oct 19, 2024 11:39:50 PM
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(__postWatch console0, None, None)
+[debug] > Exec(__waitWatch console0, None, None)

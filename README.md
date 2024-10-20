@@ -2,21 +2,19 @@
 
 ### Prerequisites
 
-- Apache Spark: 3.5
-- Scala: 2.12
+- Apache Spark: 2.4
+- Scala: 2.12.10
 - Databricks Notebook or a compatible environment
 
 ### Running the Notebooks
 
-1. **Run the Main Notebook** (`src/main/main.scala`):
-   - Open the `main.scala` notebook.
+1. **Run the Main scala code** (`src/main/flightAssignment/main.scala`):
+   - Open the `Main.scala` notebook.
    - Execute the cells to process the flight data.
    - The output will be generated and saved in the `output/` folder.
 
-2. **Run the Test Notebook** (`test/test/test.scala`):
-   - Open the `test.scala` notebook.
-   - Execute the cells to run the test functions using mock data.
-   - The test results will be printed in the output of the notebook.
+2. **Run the Test scala code** (`src/test/flightAssignment/FlightDataFunctionsTest.scala`):
+   - Run the unit test scala file.
 
 ### Testing Functions
 
